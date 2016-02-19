@@ -1,4 +1,4 @@
-package br.com.Terceiro;
+package br.com.Questao1;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
