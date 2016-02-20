@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Minha página </title>
+</head>
+<body>
+
+	<f:facet name="caption">Lista de usuario  
+    <f:facet>
+	
+	<label for = "nome">Nome
+	   <h: inputText id = "nome" value = "${usuario.nome}"/>
+	</label>
+	
+	<label for = "nascimento">Nascimento
+	   <h: inputText id = "nascimento" value = "${usuario.nascimento}"/>
+	</label>
+	
+	<label for = "matricula">Matricula
+	   <h: inputText id = "matricula" value = "${usuario.matricula}"/>
+	</label>
+	
+	<h:commandButton id="enviar" action="${usuario.enviarUsuario}"
+		value="Enviar" />
+	
+	
+</body>
+</html>
